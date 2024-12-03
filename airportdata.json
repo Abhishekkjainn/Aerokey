@@ -1,0 +1,1203 @@
+[
+  {
+    "airport_code": "BOM",
+    "airport_name": "Chhatrapati Shivaji International Airport",
+    "airport_type": "Commercial",
+    "state_name": "Maharashtra",
+    "city_name": "Mumbai",
+    "daily_travelers": 120000,
+    "state_code": "MH",
+    "pincode": "400099"
+  },
+  {
+    "airport_code": "BLR",
+    "airport_name": "Kempegowda International Airport",
+    "airport_type": "Commercial",
+    "state_name": "Karnataka",
+    "city_name": "Bengaluru",
+    "daily_travelers": 35000,
+    "state_code": "KA",
+    "pincode": "560300"
+  },
+  {
+    "airport_code": "MAA",
+    "airport_name": "Chennai International Airport",
+    "airport_type": "Commercial",
+    "state_name": "Tamil Nadu",
+    "city_name": "Chennai",
+    "daily_travelers": 55000,
+    "state_code": "TN",
+    "pincode": "600027"
+  },
+  {
+    "airport_code": "CCU",
+    "airport_name": "Netaji Subhas Chandra Bose International Airport",
+    "airport_type": "Commercial",
+    "state_name": "West Bengal",
+    "city_name": "Kolkata",
+    "daily_travelers": 60000,
+    "state_code": "WB",
+    "pincode": "700052"
+  },
+  {
+    "airport_code": "LKO",
+    "airport_name": "Chaudhary Charan Singh International Airport",
+    "airport_type": "Commercial",
+    "state_name": "Uttar Pradesh",
+    "city_name": "Lucknow",
+    "daily_travelers": 20000,
+    "state_code": "UP",
+    "pincode": "226009"
+  },
+  {
+    "airport_code": "ATQ",
+    "airport_name": "Sri Guru Ram Dass Jee International Airport",
+    "airport_type": "Commercial",
+    "state_name": "Punjab",
+    "city_name": "Amritsar",
+    "daily_travelers": 15000,
+    "state_code": "PB",
+    "pincode": "143101"
+  },
+  {
+    "airport_code": "VTZ",
+    "airport_name": "Visakhapatnam International Airport",
+    "airport_type": "Civil Enclave",
+    "state_name": "Andhra Pradesh",
+    "city_name": "Visakhapatnam",
+    "daily_travelers": 10000,
+    "state_code": "AP",
+    "pincode": "530009"
+  },
+  {
+    "airport_code": "CNN",
+    "airport_name": "Kannur International Airport",
+    "airport_type": "Commercial",
+    "state_name": "Kerala",
+    "city_name": "Kannur",
+    "daily_travelers": 12000,
+    "state_code": "KL",
+    "pincode": "670008"
+  },
+  {
+    "airport_code": "STV",
+    "airport_name": "Surat International Airport",
+    "airport_type": "Commercial",
+    "state_name": "Gujarat",
+    "city_name": "Surat",
+    "daily_travelers": 10000,
+    "state_code": "GJ",
+    "pincode": "395007"
+  },
+  {
+    "airport_code": "IDR",
+    "airport_name": "Devi Ahilya Bai Holkar Airport",
+    "airport_type": "Commercial",
+    "state_name": "Madhya Pradesh",
+    "city_name": "Indore",
+    "daily_travelers": 15000,
+    "state_code": "MP",
+    "pincode": "452005"
+  },
+  {
+    "airport_code": "COK",
+    "airport_name": "Cochin International Airport",
+    "airport_type": "Commercial",
+    "state_name": "Kerala",
+    "city_name": "Kochi",
+    "daily_travelers": 30000,
+    "state_code": "KL",
+    "pincode": "683111"
+  },
+  {
+    "airport_code": "AMD",
+    "airport_name": "Sardar Vallabhbhai Patel International Airport",
+    "airport_type": "Commercial",
+    "state_name": "Gujarat",
+    "city_name": "Ahmedabad",
+    "daily_travelers": 25000,
+    "state_code": "GJ",
+    "pincode": "380003"
+  },
+  {
+    "airport_code": "DEL",
+    "airport_name": "Indira Gandhi International Airport",
+    "airport_type": "Commercial",
+    "state_name": "Delhi",
+    "city_name": "New Delhi",
+    "daily_travelers": 100000,
+    "state_code": "DL",
+    "pincode": "110037"
+  },
+  {
+    "airport_code": "GOI",
+    "airport_name": "Dabolim Airport",
+    "airport_type": "Civil Enclave",
+    "state_name": "Goa",
+    "city_name": "Goa",
+    "daily_travelers": 8000,
+    "state_code": "GA",
+    "pincode": "403726"
+  },
+  {
+    "airport_code": "PNQ",
+    "airport_name": "Pune Airport",
+    "airport_type": "Civil Enclave",
+    "state_name": "Maharashtra",
+    "city_name": "Pune",
+    "daily_travelers": 12000,
+    "state_code": "MH",
+    "pincode": "411032"
+  },
+  {
+    "airport_code": "TRV",
+    "airport_name": "Thiruvananthapuram International Airport",
+    "airport_type": "Commercial",
+    "state_name": "Kerala",
+    "city_name": "Thiruvananthapuram",
+    "daily_travelers": 25000,
+    "state_code": "KL",
+    "pincode": "695008"
+  },
+  {
+    "airport_code": "CJB",
+    "airport_name": "Coimbatore International Airport",
+    "airport_type": "Commercial",
+    "state_name": "Tamil Nadu",
+    "city_name": "Coimbatore",
+    "daily_travelers": 20000,
+    "state_code": "TN",
+    "pincode": "641014"
+  },
+  {
+    "airport_code": "CCJ",
+    "airport_name": "Calicut International Airport",
+    "airport_type": "Commercial",
+    "state_name": "Kerala",
+    "city_name": "Calicut",
+    "daily_travelers": 15000,
+    "state_code": "KL",
+    "pincode": "673647"
+  },
+  {
+    "airport_code": "BBI",
+    "airport_name": "Biju Patnaik International Airport",
+    "airport_type": "Commercial",
+    "state_name": "Odisha",
+    "city_name": "Bhubaneswar",
+    "daily_travelers": 18000,
+    "state_code": "OD",
+    "pincode": "751020"
+  },
+  {
+    "airport_code": "GAU",
+    "airport_name": "Lokpriya Gopinath Bordoloi International Airport",
+    "airport_type": "Civil Enclave",
+    "state_name": "Assam",
+    "city_name": "Guwahati",
+    "daily_travelers": 12000,
+    "state_code": "AS",
+    "pincode": "781015"
+  },
+  {
+    "airport_code": "VNS",
+    "airport_name": "Lal Bahadur Shastri International Airport",
+    "airport_type": "Commercial",
+    "state_name": "Uttar Pradesh",
+    "city_name": "Varanasi",
+    "daily_travelers": 10000,
+    "state_code": "UP",
+    "pincode": "221006"
+  },
+  {
+    "airport_code": "HYD",
+    "airport_name": "Rajiv Gandhi International Airport",
+    "airport_type": "Commercial",
+    "state_name": "Telangana",
+    "city_name": "Hyderabad",
+    "daily_travelers": 45000,
+    "state_code": "TS",
+    "pincode": "500409"
+  },
+
+  {
+    "airport_code": "TRZ",
+    "airport_name": "Tiruchirappalli International Airport",
+    "airport_type": "Commercial",
+    "state_name": "Tamil Nadu",
+    "city_name": "Tiruchirappalli",
+    "daily_travelers": 8000,
+    "state_code": "TN",
+    "pincode": "620007"
+  },
+  {
+    "airport_code": "NAG",
+    "airport_name": "Dr. Babasaheb Ambedkar International Airport",
+    "airport_type": "Commercial",
+    "state_name": "Maharashtra",
+    "city_name": "Nagpur",
+    "daily_travelers": 12000,
+    "state_code": "MH",
+    "pincode": "440005"
+  },
+  {
+    "airport_code": "SXR",
+    "airport_name": "Sheikhul Aalam International Airport",
+    "airport_type": "Civil Enclave",
+    "state_name": "Jammu and Kashmir",
+    "city_name": "Srinagar",
+    "daily_travelers": 5000,
+    "state_code": "JK",
+    "pincode": "190007"
+  },
+  {
+    "airport_code": "IMF",
+    "airport_name": "Imphal International Airport",
+    "airport_type": "Commercial",
+    "state_name": "Manipur",
+    "city_name": "Imphal",
+    "daily_travelers": 7000,
+    "state_code": "MN",
+    "pincode": "795140"
+  },
+  {
+    "airport_code": "JAI",
+    "airport_name": "Jaipur International Airport",
+    "airport_type": "Commercial",
+    "state_name": "Rajasthan",
+    "city_name": "Jaipur",
+    "daily_travelers": 25000,
+    "state_code": "RJ",
+    "pincode": "302001"
+  },
+  {
+    "airport_code": "IXM",
+    "airport_name": "Madurai Airport",
+    "airport_type": "Customs, Commercial",
+    "state_name": "Tamil Nadu",
+    "city_name": "Madurai",
+    "daily_travelers": 10000,
+    "state_code": "TN",
+    "pincode": "625022"
+  },
+  {
+    "airport_code": "IXB",
+    "airport_name": "Bagdogra International Airport",
+    "airport_type": "Commercial",
+    "state_name": "West Bengal",
+    "city_name": "Siliguri",
+    "daily_travelers": 8000,
+    "state_code": "WB",
+    "pincode": "734421"
+  },
+  {
+    "airport_code": "PAT",
+    "airport_name": "Jay Prakash Narayan International Airport",
+    "airport_type": "Commercial (Restricted International Flights, Customs)",
+    "state_name": "Bihar",
+    "city_name": "Patna",
+    "daily_travelers": 12000,
+    "state_code": "BR",
+    "pincode": "800014"
+  },
+  {
+    "airport_code": "IXE",
+    "airport_name": "Mangalore International Airport",
+    "airport_type": "Commercial",
+    "state_name": "Karnataka",
+    "city_name": "Mangalore",
+    "daily_travelers": 15000,
+    "state_code": "KA",
+    "pincode": "575007"
+  },
+  {
+    "airport_code": "IXC",
+    "airport_name": "Chandigarh International Airport",
+    "airport_type": "Civil Enclave (Restricted International Flights, Customs)",
+    "state_name": "Chandigarh",
+    "city_name": "Chandigarh",
+    "daily_travelers": 10000,
+    "state_code": "CH",
+    "pincode": "160003"
+  },
+  {
+    "airport_code": "IXZ",
+    "airport_name": "Veer Savarkar International Airport",
+    "airport_type": "Civil Enclave",
+    "state_name": "Andaman and Nicobar Islands",
+    "city_name": "Port Blair",
+    "daily_travelers": 8000,
+    "state_code": "AN",
+    "pincode": "744103"
+  },
+  {
+    "airport_code": "CDP",
+    "airport_name": "Kadapa Airport",
+    "airport_type": "Commercial",
+    "state_name": "Andhra Pradesh",
+    "city_name": "Kadapa",
+    "daily_travelers": 4000,
+    "state_code": "AP",
+    "pincode": "516003"
+  },
+  {
+    "airport_code": "VGA",
+    "airport_name": "Vijayawada Airport",
+    "airport_type": "Commercial",
+    "state_name": "Andhra Pradesh",
+    "city_name": "Vijayawada",
+    "daily_travelers": 12000,
+    "state_code": "AP",
+    "pincode": "520010"
+  },
+  {
+    "airport_code": "RJA",
+    "airport_name": "Rajahmundry Airport",
+    "airport_type": "Commercial",
+    "state_name": "Andhra Pradesh",
+    "city_name": "Rajahmundry",
+    "daily_travelers": 8000,
+    "state_code": "AP",
+    "pincode": "533103"
+  },
+  {
+    "airport_code": "TIR",
+    "airport_name": "Tirupati Airport",
+    "airport_type": "Commercial",
+    "state_name": "Andhra Pradesh",
+    "city_name": "Tirupati",
+    "daily_travelers": 10000,
+    "state_code": "AP",
+    "pincode": "517501"
+  },
+  {
+    "airport_code": "IXT",
+    "airport_name": "Pasighat Airport",
+    "airport_type": "Civil Enclave",
+    "state_name": "Arunachal Pradesh",
+    "city_name": "Pasighat",
+    "daily_travelers": 2000,
+    "state_code": "AR",
+    "pincode": "791102"
+  },
+  {
+    "airport_code": "GAY",
+    "airport_name": "Gaya Airport",
+    "airport_type": "Customs, Commercial",
+    "state_name": "Bihar",
+    "city_name": "Gaya",
+    "daily_travelers": 5000,
+    "state_code": "BR",
+    "pincode": "823001"
+  },
+  {
+    "airport_code": "PAB",
+    "airport_name": "Ambikapur Airport",
+    "airport_type": "Commercial",
+    "state_name": "Chhattisgarh",
+    "city_name": "Ambikapur",
+    "daily_travelers": 3000,
+    "state_code": "CT",
+    "pincode": "497001"
+  },
+  {
+    "airport_code": "RPR",
+    "airport_name": "Swami Vivekananda Airport",
+    "airport_type": "Commercial",
+    "state_name": "Chhattisgarh",
+    "city_name": "Raipur",
+    "daily_travelers": 15000,
+    "state_code": "CT",
+    "pincode": "492001"
+  },
+  {
+    "airport_code": "DIU",
+    "airport_name": "Diu Airport",
+    "airport_type": "Commercial",
+    "state_name": "Daman and Diu",
+    "city_name": "Diu",
+    "daily_travelers": 4000,
+    "state_code": "DD",
+    "pincode": "362520"
+  },
+  {
+    "airport_code": "DEL",
+    "airport_name": "Indira Gandhi International Airport",
+    "airport_type": "Commercial",
+    "state_name": "Delhi",
+    "city_name": "New Delhi",
+    "daily_travelers": 250000,
+    "state_code": "DL",
+    "pincode": "110037"
+  },
+  {
+    "airport_code": "DIB",
+    "airport_name": "Dibrugarh Airport",
+    "airport_type": "Commercial",
+    "state_name": "Assam",
+    "city_name": "Dibrugarh",
+    "daily_travelers": 5000,
+    "state_code": "AS",
+    "pincode": "786101"
+  },
+  {
+    "airport_code": "JRH",
+    "airport_name": "Jorhat Airport",
+    "airport_type": "Civil Enclave",
+    "state_name": "Assam",
+    "city_name": "Jorhat",
+    "daily_travelers": 3000,
+    "state_code": "AS",
+    "pincode": "785001"
+  },
+  {
+    "airport_code": "IXI",
+    "airport_name": "Lilabari Airport",
+    "airport_type": "Commercial",
+    "state_name": "Assam",
+    "city_name": "North Lakhimpur",
+    "daily_travelers": 4000,
+    "state_code": "AS",
+    "pincode": "787001"
+  },
+  {
+    "airport_code": "TEZ",
+    "airport_name": "Tezpur Airport",
+    "airport_type": "Defence",
+    "state_name": "Assam",
+    "city_name": "Tezpur",
+    "daily_travelers": 1000,
+    "state_code": "AS",
+    "pincode": "784001"
+  },
+  {
+    "airport_code": "IXS",
+    "airport_name": "Silchar Airport",
+    "airport_type": "Civil Enclave",
+    "state_name": "Assam",
+    "city_name": "Silchar",
+    "daily_travelers": 2000,
+    "state_code": "AS",
+    "pincode": "788001"
+  },
+  {
+    "airport_code": "BDQ",
+    "airport_name": "Vadodara Airport",
+    "airport_type": "Commercial",
+    "state_name": "Gujarat",
+    "city_name": "Vadodara",
+    "daily_travelers": 8000,
+    "state_code": "GJ",
+    "pincode": "390022"
+  },
+  {
+    "airport_code": "BHUJ",
+    "airport_name": "Bhuj Airport",
+    "airport_type": "Civil Enclave",
+    "state_name": "Gujarat",
+    "city_name": "Bhuj",
+    "daily_travelers": 1500,
+    "state_code": "GJ",
+    "pincode": "370001"
+  },
+  {
+    "airport_code": "IXY",
+    "airport_name": "Kandla Airport",
+    "airport_type": "Commercial",
+    "state_name": "Gujarat",
+    "city_name": "Kandla",
+    "daily_travelers": 3000,
+    "state_code": "GJ",
+    "pincode": "370240"
+  },
+  {
+    "airport_code": "JGA",
+    "airport_name": "Jamnagar Airport",
+    "airport_type": "Civil Enclave",
+    "state_name": "Gujarat",
+    "city_name": "Jamnagar",
+    "daily_travelers": 4000,
+    "state_code": "GJ",
+    "pincode": "361006"
+  },
+  {
+    "airport_code": "PBD",
+    "airport_name": "Porbandar Airport",
+    "airport_type": "Commercial",
+    "state_name": "Gujarat",
+    "city_name": "Porbandar",
+    "daily_travelers": 2000,
+    "state_code": "GJ",
+    "pincode": "360575"
+  },
+  {
+    "airport_code": "RAJ",
+    "airport_name": "Rajkot Airport",
+    "airport_type": "Commercial",
+    "state_name": "Gujarat",
+    "city_name": "Rajkot",
+    "daily_travelers": 7000,
+    "state_code": "GJ",
+    "pincode": "360003"
+  },
+  {
+    "airport_code": "BHU",
+    "airport_name": "Bhavnagar Airport",
+    "airport_type": "Commercial",
+    "state_name": "Gujarat",
+    "city_name": "Bhavnagar",
+    "daily_travelers": 3000,
+    "state_code": "GJ",
+    "pincode": "364001"
+  },
+  {
+    "airport_code": "KRL",
+    "airport_name": "Karnal Airport",
+    "airport_type": "Flying School",
+    "state_name": "Haryana",
+    "city_name": "Karnal",
+    "daily_travelers": 500,
+    "state_code": "HR",
+    "pincode": "132001"
+  },
+  {
+    "airport_code": "HSS",
+    "airport_name": "Hisar Airport",
+    "airport_type": "Commercial",
+    "state_name": "Haryana",
+    "city_name": "Hisar",
+    "daily_travelers": 4000,
+    "state_code": "HR",
+    "pincode": "125001"
+  },
+  {
+    "airport_code": "DHM",
+    "airport_name": "Kangra Airport",
+    "airport_type": "Commercial",
+    "state_name": "Himachal Pradesh",
+    "city_name": "Kangra",
+    "daily_travelers": 2000,
+    "state_code": "HP",
+    "pincode": "176001"
+  },
+  {
+    "airport_code": "KUU",
+    "airport_name": "Kullu-Manali Airport",
+    "airport_type": "Commercial",
+    "state_name": "Himachal Pradesh",
+    "city_name": "Kullu",
+    "daily_travelers": 1000,
+    "state_code": "HP",
+    "pincode": "175101"
+  },
+  {
+    "airport_code": "SLV",
+    "airport_name": "Shimla Airport",
+    "airport_type": "Commercial",
+    "state_name": "Himachal Pradesh",
+    "city_name": "Shimla",
+    "daily_travelers": 1500,
+    "state_code": "HP",
+    "pincode": "171001"
+  },
+  {
+    "airport_code": "IXJ",
+    "airport_name": "Jammu Airport",
+    "airport_type": "Civil Enclave",
+    "state_name": "Jammu & Kashmir",
+    "city_name": "Jammu",
+    "daily_travelers": 12000,
+    "state_code": "JK",
+    "pincode": "180004"
+  },
+  {
+    "airport_code": "BKR",
+    "airport_name": "Bokaro Airport",
+    "airport_type": "Commercial",
+    "state_name": "Jharkhand",
+    "city_name": "Bokaro",
+    "daily_travelers": 2000,
+    "state_code": "JH",
+    "pincode": "827001"
+  },
+  {
+    "airport_code": "IXW",
+    "airport_name": "Sonari Airport",
+    "airport_type": "Commercial",
+    "state_name": "Jharkhand",
+    "city_name": "Jamshedpur",
+    "daily_travelers": 3500,
+    "state_code": "JH",
+    "pincode": "831001"
+  },
+  {
+    "airport_code": "IXR",
+    "airport_name": "Birsa Munda Airport",
+    "airport_type": "Commercial",
+    "state_name": "Jharkhand",
+    "city_name": "Ranchi",
+    "daily_travelers": 12000,
+    "state_code": "JH",
+    "pincode": "834002"
+  },
+  {
+    "airport_code": "BEP",
+    "airport_name": "Bellary Airport",
+    "airport_type": "Commercial",
+    "state_name": "Karnataka",
+    "city_name": "Bellary",
+    "daily_travelers": 3000,
+    "state_code": "KA",
+    "pincode": "583101"
+  },
+  {
+    "airport_code": "MYQ",
+    "airport_name": "Mysore Airport",
+    "airport_type": "Commercial",
+    "state_name": "Karnataka",
+    "city_name": "Mysore",
+    "daily_travelers": 4000,
+    "state_code": "KA",
+    "pincode": "570018"
+  },
+  {
+    "airport_code": "GBI",
+    "airport_name": "Gulbarga Airport",
+    "airport_type": "Commercial",
+    "state_name": "Karnataka",
+    "city_name": "Kalaburagi",
+    "daily_travelers": 2000,
+    "state_code": "KA",
+    "pincode": "585102"
+  },
+  {
+    "airport_code": "HBX",
+    "airport_name": "Hubli Airport",
+    "airport_type": "Commercial",
+    "state_name": "Karnataka",
+    "city_name": "Hubli",
+    "daily_travelers": 6000,
+    "state_code": "KA",
+    "pincode": "580020"
+  },
+  {
+    "airport_code": "AGX",
+    "airport_name": "Agatti Airport",
+    "airport_type": "Commercial",
+    "state_name": "Lakshadweep",
+    "city_name": "Agatti",
+    "daily_travelers": 1500,
+    "state_code": "LD",
+    "pincode": "682553"
+  },
+  {
+    "airport_code": "HJR",
+    "airport_name": "Khajuraho Airport",
+    "airport_type": "Commercial",
+    "state_name": "Madhya Pradesh",
+    "city_name": "Khajuraho",
+    "daily_travelers": 3500,
+    "state_code": "MP",
+    "pincode": "471606"
+  },
+  {
+    "airport_code": "TNI",
+    "airport_name": "Satna Airport",
+    "airport_type": "Commercial",
+    "state_name": "Madhya Pradesh",
+    "city_name": "Satna",
+    "daily_travelers": 3000,
+    "state_code": "MP",
+    "pincode": "485001"
+  },
+  {
+    "airport_code": "JLR",
+    "airport_name": "Jabalpur Airport",
+    "airport_type": "Commercial",
+    "state_name": "Madhya Pradesh",
+    "city_name": "Jabalpur",
+    "daily_travelers": 4000,
+    "state_code": "MP",
+    "pincode": "482001"
+  },
+  {
+    "airport_code": "BHO",
+    "airport_name": "Raja Bhoj Airport",
+    "airport_type": "Commercial",
+    "state_name": "Madhya Pradesh",
+    "city_name": "Bhopal",
+    "daily_travelers": 12000,
+    "state_code": "MP",
+    "pincode": "462030"
+  },
+  {
+    "airport_code": "GWL",
+    "airport_name": "Gwalior Airport",
+    "airport_type": "Commercial",
+    "state_name": "Madhya Pradesh",
+    "city_name": "Gwalior",
+    "daily_travelers": 5000,
+    "state_code": "MP",
+    "pincode": "474020"
+  },
+  {
+    "airport_code": "IDR",
+    "airport_name": "Devi Ahilyabai Holkar Airport",
+    "airport_type": "Commercial",
+    "state_name": "Madhya Pradesh",
+    "city_name": "Indore",
+    "daily_travelers": 8000,
+    "state_code": "MP",
+    "pincode": "452005"
+  },
+  {
+    "airport_code": "SAG",
+    "airport_name": "Shirdi Airport",
+    "airport_type": "Commercial",
+    "state_name": "Maharashtra",
+    "city_name": "Shirdi",
+    "daily_travelers": 3000,
+    "state_code": "MH",
+    "pincode": "423109"
+  },
+  {
+    "airport_code": "ISK",
+    "airport_name": "Nashik Airport",
+    "airport_type": "Commercial",
+    "state_name": "Maharashtra",
+    "city_name": "Nashik",
+    "daily_travelers": 2000,
+    "state_code": "MH",
+    "pincode": "422001"
+  },
+  {
+    "airport_code": "YTL",
+    "airport_name": "Yavatmal Airport",
+    "airport_type": "General Aviation",
+    "state_name": "Maharashtra",
+    "city_name": "Yavatmal",
+    "daily_travelers": 500,
+    "state_code": "MH",
+    "pincode": "445001"
+  },
+  {
+    "airport_code": "NDC",
+    "airport_name": "Shri Guru Gobind Singh Ji Airport",
+    "airport_type": "Commercial",
+    "state_name": "Maharashtra",
+    "city_name": "Nanded",
+    "daily_travelers": 1500,
+    "state_code": "MH",
+    "pincode": "431602"
+  },
+  {
+    "airport_code": "KLH",
+    "airport_name": "Chhatrapati Rajaram Maharaj Airport",
+    "airport_type": "Commercial",
+    "state_name": "Maharashtra",
+    "city_name": "Kolhapur",
+    "daily_travelers": 2000,
+    "state_code": "MH",
+    "pincode": "416003"
+  },
+  {
+    "airport_code": "IXU",
+    "airport_name": "Aurangabad Airport",
+    "airport_type": "Commercial",
+    "state_name": "Maharashtra",
+    "city_name": "Aurangabad",
+    "daily_travelers": 5000,
+    "state_code": "MH",
+    "pincode": "431001"
+  },
+  {
+    "airport_code": "SSL",
+    "airport_name": "Solapur Airport",
+    "airport_type": "General Aviation",
+    "state_name": "Maharashtra",
+    "city_name": "Solapur",
+    "daily_travelers": 300,
+    "state_code": "MH",
+    "pincode": "413001"
+  },
+  {
+    "airport_code": "JLG",
+    "airport_name": "Jalgaon Airport",
+    "airport_type": "Commercial",
+    "state_name": "Maharashtra",
+    "city_name": "Jalgaon",
+    "daily_travelers": 2000,
+    "state_code": "MH",
+    "pincode": "425001"
+  },
+  {
+    "airport_code": "AKD",
+    "airport_name": "Akola Airport",
+    "airport_type": "General Aviation",
+    "state_name": "Maharashtra",
+    "city_name": "Akola",
+    "daily_travelers": 300,
+    "state_code": "MH",
+    "pincode": "444001"
+  },
+  {
+    "airport_code": "SHL",
+    "airport_name": "Shillong Airport",
+    "airport_type": "Commercial",
+    "state_name": "Meghalaya",
+    "city_name": "Shillong",
+    "daily_travelers": 2000,
+    "state_code": "ML",
+    "pincode": "793001"
+  },
+  {
+    "airport_code": "AJL",
+    "airport_name": "Lengpui Airport",
+    "airport_type": "Commercial",
+    "state_name": "Mizoram",
+    "city_name": "Aizawl",
+    "daily_travelers": 1000,
+    "state_code": "MZ",
+    "pincode": "796001"
+  },
+  {
+    "airport_code": "DMU",
+    "airport_name": "Dimapur Airport",
+    "airport_type": "Commercial",
+    "state_name": "Nagaland",
+    "city_name": "Dimapur",
+    "daily_travelers": 2000,
+    "state_code": "NL",
+    "pincode": "797112"
+  },
+  {
+    "airport_code": "JSA",
+    "airport_name": "Veer Surendra Sai Airport",
+    "airport_type": "Commercial",
+    "state_name": "Odisha",
+    "city_name": "Jharsuguda",
+    "daily_travelers": 1500,
+    "state_code": "OR",
+    "pincode": "768201"
+  },
+  {
+    "airport_code": "PYB",
+    "airport_name": "Jeypore Airport",
+    "airport_type": "Commercial",
+    "state_name": "Odisha",
+    "city_name": "Jeypore",
+    "daily_travelers": 500,
+    "state_code": "OR",
+    "pincode": "764001"
+  },
+  {
+    "airport_code": "PNY",
+    "airport_name": "Puducherry Airport",
+    "airport_type": "Commercial",
+    "state_name": "Puducherry",
+    "city_name": "Pondicherry",
+    "daily_travelers": 2000,
+    "state_code": "PY",
+    "pincode": "605001"
+  },
+  {
+    "airport_code": "BUP",
+    "airport_name": "Bathinda Airport",
+    "airport_type": "Civil Enclave",
+    "state_name": "Punjab",
+    "city_name": "Bathinda",
+    "daily_travelers": 1000,
+    "state_code": "PB",
+    "pincode": "151001"
+  },
+  {
+    "airport_code": "IXP",
+    "airport_name": "Pathankot Airport",
+    "airport_type": "Civil Enclave",
+    "state_name": "Punjab",
+    "city_name": "Pathankot",
+    "daily_travelers": 800,
+    "state_code": "PB",
+    "pincode": "145001"
+  },
+  {
+    "airport_code": "LUH",
+    "airport_name": "Sahnewal Airport",
+    "airport_type": "Commercial",
+    "state_name": "Punjab",
+    "city_name": "Ludhiana",
+    "daily_travelers": 1500,
+    "state_code": "PB",
+    "pincode": "141001"
+  },
+  {
+    "airport_code": "PAT",
+    "airport_name": "Patiala Airport",
+    "airport_type": "—",
+    "state_name": "Punjab",
+    "city_name": "Patiala",
+    "daily_travelers": 0,
+    "state_code": "PB",
+    "pincode": "147001"
+  },
+  {
+    "airport_code": "AIP",
+    "airport_name": "Adampur Airport",
+    "airport_type": "Civil Enclave",
+    "state_name": "Punjab",
+    "city_name": "Jalandhar",
+    "daily_travelers": 500,
+    "state_code": "PB",
+    "pincode": "144205"
+  },
+  {
+    "airport_code": "BKB",
+    "airport_name": "Nal Airport",
+    "airport_type": "Civil Enclave",
+    "state_name": "Rajasthan",
+    "city_name": "Bikaner",
+    "daily_travelers": 200,
+    "state_code": "RJ",
+    "pincode": "334001"
+  },
+  {
+    "airport_code": "KTU",
+    "airport_name": "Kota Airport",
+    "airport_type": "—",
+    "state_name": "Rajasthan",
+    "city_name": "Kota",
+    "daily_travelers": 500,
+    "state_code": "RJ",
+    "pincode": "324001"
+  },
+  {
+    "airport_code": "KQH",
+    "airport_name": "Kishangarh Airport",
+    "airport_type": "Commercial",
+    "state_name": "Rajasthan",
+    "city_name": "Ajmer",
+    "daily_travelers": 1000,
+    "state_code": "RJ",
+    "pincode": "305801"
+  },
+  {
+    "airport_code": "JDH",
+    "airport_name": "Jodhpur Airport",
+    "airport_type": "Civil Enclave",
+    "state_name": "Rajasthan",
+    "city_name": "Jodhpur",
+    "daily_travelers": 3000,
+    "state_code": "RJ",
+    "pincode": "342001"
+  },
+  {
+    "airport_code": "UDR",
+    "airport_name": "Maharana Pratap Airport",
+    "airport_type": "Commercial",
+    "state_name": "Rajasthan",
+    "city_name": "Udaipur",
+    "daily_travelers": 2000,
+    "state_code": "RJ",
+    "pincode": "313001"
+  },
+  {
+    "airport_code": "JSA",
+    "airport_name": "Jaisalmer Airport",
+    "airport_type": "Civil Enclave",
+    "state_name": "Rajasthan",
+    "city_name": "Jaisalmer",
+    "daily_travelers": 800,
+    "state_code": "RJ",
+    "pincode": "345001"
+  },
+  {
+    "airport_code": "PYG",
+    "airport_name": "Pakyong Airport",
+    "airport_type": "Commercial",
+    "state_name": "Sikkim",
+    "city_name": "Gangtok",
+    "daily_travelers": 1000,
+    "state_code": "SK",
+    "pincode": "737106"
+  },
+  {
+    "airport_code": "TCR",
+    "airport_name": "Thoothukudi Airport",
+    "airport_type": "Commercial",
+    "state_name": "Tamil Nadu",
+    "city_name": "Thoothukudi",
+    "daily_travelers": 1000,
+    "state_code": "TN",
+    "pincode": "628001"
+  },
+  {
+    "airport_code": "SXV",
+    "airport_name": "Salem Airport",
+    "airport_type": "Commercial",
+    "state_name": "Tamil Nadu",
+    "city_name": "Salem",
+    "daily_travelers": 1000,
+    "state_code": "TN",
+    "pincode": "636001"
+  },
+  {
+    "airport_code": "NDR",
+    "airport_name": "Nadirgul Airport",
+    "airport_type": "Flying School",
+    "state_name": "Telangana",
+    "city_name": "Hyderabad",
+    "daily_travelers": 0,
+    "state_code": "TG",
+    "pincode": "501510"
+  },
+  {
+    "airport_code": "BEP",
+    "airport_name": "Begumpet Airport",
+    "airport_type": "Flying School",
+    "state_name": "Telangana",
+    "city_name": "Hyderabad",
+    "daily_travelers": 0,
+    "state_code": "TG",
+    "pincode": "500016"
+  },
+  {
+    "airport_code": "IXA",
+    "airport_name": "Maharaja Bir Bikram Airport",
+    "airport_type": "Commercial",
+    "state_name": "Tripura",
+    "city_name": "Agartala",
+    "daily_travelers": 2000,
+    "state_code": "TR",
+    "pincode": "799001"
+  },
+  {
+    "airport_code": "KNU",
+    "airport_name": "Kanpur Airport",
+    "airport_type": "Civil Enclave",
+    "state_name": "Uttar Pradesh",
+    "city_name": "Kanpur",
+    "daily_travelers": 1500,
+    "state_code": "UP",
+    "pincode": "208002"
+  },
+  {
+    "airport_code": "HDX",
+    "airport_name": "Hindon Airport",
+    "airport_type": "Civil Enclave",
+    "state_name": "Uttar Pradesh",
+    "city_name": "Ghaziabad",
+    "daily_travelers": 1000,
+    "state_code": "UP",
+    "pincode": "201004"
+  },
+  {
+    "airport_code": "AGR",
+    "airport_name": "Agra Air Force Station",
+    "airport_type": "Civil Enclave",
+    "state_name": "Uttar Pradesh",
+    "city_name": "Agra",
+    "daily_travelers": 500,
+    "state_code": "UP",
+    "pincode": "282001"
+  },
+  {
+    "airport_code": "GOP",
+    "airport_name": "Gorakhpur Airport",
+    "airport_type": "Civil Enclave",
+    "state_name": "Uttar Pradesh",
+    "city_name": "Gorakhpur",
+    "daily_travelers": 700,
+    "state_code": "UP",
+    "pincode": "273001"
+  },
+  {
+    "airport_code": "IXD",
+    "airport_name": "Allahabad Airport",
+    "airport_type": "Civil Enclave",
+    "state_name": "Uttar Pradesh",
+    "city_name": "Allahabad",
+    "daily_travelers": 800,
+    "state_code": "UP",
+    "pincode": "211001"
+  },
+  {
+    "airport_code": "DED",
+    "airport_name": "Jolly Grant Airport",
+    "airport_type": "Commercial",
+    "state_name": "Uttarakhand",
+    "city_name": "Dehradun",
+    "daily_travelers": 1500,
+    "state_code": "UT",
+    "pincode": "248140"
+  },
+  {
+    "airport_code": "NNS",
+    "airport_name": "Naini Saini Airport",
+    "airport_type": "Commercial",
+    "state_name": "Uttarakhand",
+    "city_name": "Pithoragarh",
+    "daily_travelers": 500,
+    "state_code": "UT",
+    "pincode": "262501"
+  },
+  {
+    "airport_code": "PGH",
+    "airport_name": "Pantnagar Airport",
+    "airport_type": "Commercial",
+    "state_name": "Uttarakhand",
+    "city_name": "Pantnagar",
+    "daily_travelers": 800,
+    "state_code": "UT",
+    "pincode": "263145"
+  },
+  {
+    "airport_code": "RGH",
+    "airport_name": "Balurghat Airport",
+    "airport_type": "—",
+    "state_name": "West Bengal",
+    "city_name": "Balurghat",
+    "daily_travelers": 200,
+    "state_code": "WB",
+    "pincode": "733101"
+  },
+  {
+    "airport_code": "RDP",
+    "airport_name": "Kazi Nazrul Islam Airport",
+    "airport_type": "Commercial",
+    "state_name": "West Bengal",
+    "city_name": "Asansol",
+    "daily_travelers": 700,
+    "state_code": "WB",
+    "pincode": "713301"
+  },
+  {
+    "airport_code": "BEP",
+    "airport_name": "Behala Airport",
+    "airport_type": "Heliport",
+    "state_name": "West Bengal",
+    "city_name": "Kolkata",
+    "daily_travelers": 0,
+    "state_code": "WB",
+    "pincode": "700034"
+  },
+  {
+    "airport_code": "COH",
+    "airport_name": "Cooch Behar Airport",
+    "airport_type": "—",
+    "state_name": "West Bengal",
+    "city_name": "Cooch Behar",
+    "daily_travelers": 100,
+    "state_code": "WB",
+    "pincode": "736101"
+  },
+  {
+    "airport_code": "PAN",
+    "airport_name": "Panagarh Airport",
+    "airport_type": "Airbase",
+    "state_name": "West Bengal",
+    "city_name": "Panagarh",
+    "daily_travelers": 0,
+    "state_code": "WB",
+    "pincode": "713148"
+  }
+]

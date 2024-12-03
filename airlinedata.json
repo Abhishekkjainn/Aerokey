@@ -1,0 +1,77 @@
+[
+  {
+    "airline_name": "Air India",
+    "iata_code": "AI",
+    "headquarters": "New Delhi",
+    "fleet_size": 150,
+    "aircraft_types": [
+      "Boeing 737",
+      "Airbus A320",
+      "Boeing 777",
+      "Airbus A321"
+    ],
+    "website": "https://www.airindia.in",
+    "alliance": "Star Alliance",
+    "foundation_year": 1932
+  },
+  {
+    "airline_name": "Vistara",
+    "iata_code": "UK",
+    "headquarters": "New Delhi",
+    "fleet_size": 45,
+    "aircraft_types": ["Airbus A320", "Airbus A321", "Boeing 787-9 Dreamliner"],
+    "website": "https://www.airvistara.com",
+    "alliance": "None",
+    "foundation_year": 2013
+  },
+  {
+    "airline_name": "IndiGo",
+    "iata_code": "6E",
+    "headquarters": "Gurugram",
+    "fleet_size": 250,
+    "aircraft_types": ["Airbus A320", "Airbus A321"],
+    "website": "https://www.goindigo.in",
+    "alliance": "None",
+    "foundation_year": 2006
+  },
+  {
+    "airline_name": "SpiceJet",
+    "iata_code": "SG",
+    "headquarters": "Gurugram",
+    "fleet_size": 80,
+    "aircraft_types": ["Boeing 737", "Airbus A320"],
+    "website": "https://www.spicejet.com",
+    "alliance": "None",
+    "foundation_year": 2005
+  },
+  {
+    "airline_name": "GoFirst",
+    "iata_code": "G8",
+    "headquarters": "Mumbai",
+    "fleet_size": 60,
+    "aircraft_types": ["Airbus A320", "Airbus A321"],
+    "website": "https://www.gofirst.in",
+    "alliance": "None",
+    "foundation_year": 2005
+  },
+  {
+    "airline_name": "AirAsia India",
+    "iata_code": "I5",
+    "headquarters": "Bengaluru",
+    "fleet_size": 35,
+    "aircraft_types": ["Airbus A320"],
+    "website": "https://www.airasia.com",
+    "alliance": "None",
+    "foundation_year": 2014
+  },
+  {
+    "airline_name": "Akasa Air",
+    "iata_code": "QP",
+    "headquarters": "Mumbai",
+    "fleet_size": 10,
+    "aircraft_types": ["Boeing 737 MAX 8"],
+    "website": "https://www.akasaair.com",
+    "alliance": "None",
+    "foundation_year": 2022
+  }
+]
