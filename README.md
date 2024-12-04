@@ -1,4 +1,4 @@
-# Airport API
+# Aerokey API
 
 Welcome to the **Airport API**! This API provides detailed information on airports and airlines in India, including airport codes, locations, types, airlines operating in India, and more. It allows developers to integrate essential aviation data into their applications, websites, or services.
 
