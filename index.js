@@ -9,226 +9,109 @@ app.use(cors());
 
 app.get('/', (req, res) => {
   res.send(`
+
+
+
   <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Airport API Documentation</title>
-  <style>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airport API Documentation</title>
+    <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'DM Sans', sans-serif;
       margin: 20px;
-      background-color: #f4f4f9;
-      color: #333;
+      background-color: #121212;
+      color: #E0E0E0;
+      line-height: 1.6;
     }
     h1, h2 {
-      color: #005b96;
+      color: #03DAC6;
+    }
+    a {
+      color: #BB86FC;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
     }
     pre {
-      background-color: #e1e1e1;
+      background-color: #1F1B24;
       padding: 15px;
       border-radius: 5px;
       overflow-x: auto;
+      color: #E0E0E0;
+      font-size: 14px;
     }
     .endpoint {
-      background-color: #f9f9f9;
+      background-color: #1E1E1E;
       padding: 15px;
-      border: 1px solid #ddd;
-      border-radius: 5px;
+      border: 1px solid #2C2C2C;
+      border-radius: 8px;
       margin-bottom: 20px;
     }
     .title {
       font-size: 1.2em;
-      font-weight: bold;
-    }
-    .error {
-      color: #d9534f;
-    }
-    .success {
-      color: #5bc0de;
+      font-weight: 700;
+      margin-bottom: 10px;
+      color: #03DAC6;
     }
     footer {
       margin-top: 40px;
       text-align: center;
       font-size: 0.9em;
+      color: #757575;
+    }
+    .error {
+      color: #CF6679;
+    }
+    .success {
+      color: #03DAC6;
+    }
+    .section-header {
+      border-left: 4px solid #03DAC6;
+      padding-left: 10px;
+      margin-bottom: 20px;
+      font-size: 1.5em;
+      font-weight: 700;
     }
   </style>
-</head>
-<body>
-  <h1>Airport API Documentation</h1>
-  <p>Welcome to the official documentation for the Airport API! This API provides detailed information on airports and airlines in India, such as airport codes, locations, types, and airlines operating in India.</p>
-  <p>Base URL: <a href="https://aerokey.vercel.app" target="_blank">https://aerokey.vercel.app</a></p>
-  <p>Author: <a href="https://abhishekjainn.vercel.app" target="_blank">Abhishek Jain</a></p>
-
-  <h2>API Endpoints</h2>
-
-  <div class="endpoint">
-    <div class="title">1. Get all Airports</div>
-    <p>Request:</p>
-    <pre>GET /v1/airports</pre>
-    <p>Response:</p>
-    <pre>
-{
-  "total": 1000,
-  "airports": [...],
-  "message": "Success",
-  "status": 200
-}
-    </pre>
-    <p>This endpoint retrieves a list of all airports.</p>
-  </div>
-
-  <div class="endpoint">
-    <div class="title">2. Get Airport by Code</div>
-    <p>Request:</p>
-    <pre>GET /v1/airports/code/:code</pre>
-    <p>Response:</p>
-    <pre>
-{
-  "airport_code": "DEL",
-  "airport_name": "Indira Gandhi International Airport",
-  "city_name": "New Delhi",
-  "state_name": "Delhi",
-  "airport_type": "International",
-  "pincode": "110037",
-  "state_code": "DL",
-  "message": "Success",
-  "status": 200
-}
-    </pre>
-    <p>Error Message (if not found):</p>
-    <pre>
-{
-  "message": "Airport not found",
-  "status": 404
-}
-    </pre>
-    <p>This endpoint allows you to retrieve information for a specific airport by its airport code.</p>
-  </div>
-
-  <div class="endpoint">
-    <div class="title">3. Get Airport by Name</div>
-    <p>Request:</p>
-    <pre>GET /v1/airports/name/:name</pre>
-    <p>Response:</p>
-    <pre>
-{
-  "airport_code": "DEL",
-  "airport_name": "Indira Gandhi International Airport",
-  "city_name": "New Delhi",
-  "state_name": "Delhi",
-  "airport_type": "International",
-  "pincode": "110037",
-  "state_code": "DL",
-  "message": "Success",
-  "status": 200
-}
-    </pre>
-    <p>Error Message (if not found):</p>
-    <pre>
-{
-  "message": "Airport not found",
-  "status": 404
-}
-    </pre>
-    <p>This endpoint allows you to retrieve information for a specific airport by its name.</p>
-  </div>
-
-  <div class="endpoint">
-    <div class="title">4. Get Airport by City</div>
-    <p>Request:</p>
-    <pre>GET /v1/airports/city/:city</pre>
-    <p>Response:</p>
-    <pre>
-{
-  "airport_code": "DEL",
-  "airport_name": "Indira Gandhi International Airport",
-  "city_name": "New Delhi",
-  "state_name": "Delhi",
-  "airport_type": "International",
-  "pincode": "110037",
-  "state_code": "DL",
-  "message": "Success",
-  "status": 200
-}
-    </pre>
-    <p>Error Message (if not found):</p>
-    <pre>
-{
-  "message": "Airport not found",
-  "status": 404
-}
-    </pre>
-    <p>This endpoint allows you to retrieve information for a specific airport by its city.</p>
-  </div>
-
-  <div class="endpoint">
-    <div class="title">5. Get Airports by State</div>
-    <p>Request:</p>
-    <pre>GET /v1/airports/state/:state</pre>
-    <p>Response:</p>
-    <pre>
-[
+  </head>
+  <body>
+    <h1>Airport API Documentation</h1>
+    <p>Welcome to the official documentation for the Airport API! This API provides detailed information on airports and airlines in India, such as airport codes, locations, types, and airlines operating in India.</p>
+    <p>Base URL: <a href="https://aerokey-api.vercel.app" target="_blank">https://aerokey-api.vercel.app</a></p>
+    <p>Author: <a href="https://abhishekjainn.vercel.app" target="_blank">Abhishek Jain</a></p>
+  
+    <h2>API Endpoints</h2>
+  
+    <div class="endpoint">
+      <div class="title">1. Get all Airports</div>
+      <p>Request:</p>
+      <pre>GET /v1/airports</pre>
+      <p>Response:</p>
+      <pre>
   {
-    "airport_code": "BOM",
-    "airport_name": "Chhatrapati Shivaji Maharaj International Airport",
-    "city_name": "Mumbai",
-    "state_name": "Maharashtra",
-    "airport_type": "International",
-    "pincode": "400099",
-    "state_code": "MH",
+    "total": 1000,
+    "airports": [...],
     "message": "Success",
     "status": 200
-  },
-  ...
-]
-    </pre>
-    <p>Error Message (if no airports found):</p>
-    <pre>
-{
-  "message": "No airports found in this state",
-  "status": 404
-}
-    </pre>
-    <p>This endpoint allows you to retrieve airports in a specific state.</p>
-  </div>
-
-  <div class="endpoint">
-    <div class="title">6. Get Airport by Pincode</div>
-    <p>Request:</p>
-    <pre>GET /v1/airports/pincode/:pincode</pre>
-    <p>Response:</p>
-    <pre>
-{
-  "airport_code": "BLR",
-  "airport_name": "Kempegowda International Airport",
-  "city_name": "Bengaluru",
-  "state_name": "Karnataka",
-  "airport_type": "International",
-  "pincode": "560300",
-  "state_code": "KA",
-  "message": "Success",
-  "status": 200
-}
-    </pre>
-    <p>Error Message (if not found):</p>
-    <pre>
-{
-  "message": "Airport not found",
-  "status": 404
-}
-    </pre>
-    <p>This endpoint allows you to retrieve information for a specific airport by its pincode.</p>
-  </div>
-
-  <div class="endpoint">
-    <div class="title">7. Get Airports by State Code</div>
-    <p>Request:</p>
-    <pre>GET /v1/airports/statecode/:statecode</pre>
-    <p>Response:</p>
-    <pre>
-[
+  }
+      </pre>
+      <p>This endpoint retrieves a list of all airports.</p>
+    </div>
+  
+    <div class="endpoint">
+      <div class="title">2. Get Airport by Code</div>
+      <p>Request:</p>
+      <pre>GET /v1/airports/code/:code</pre>
+      <p>Response:</p>
+      <pre>
   {
     "airport_code": "DEL",
     "airport_name": "Indira Gandhi International Airport",
@@ -239,27 +122,24 @@ app.get('/', (req, res) => {
     "state_code": "DL",
     "message": "Success",
     "status": 200
-  },
-  ...
-]
-    </pre>
-    <p>Error Message (if no airports found):</p>
-    <pre>
-{
-  "message": "No airports found for this state code",
-  "status": 404
-}
-    </pre>
-    <p>This endpoint allows you to retrieve airports in a specific state code.</p>
-  </div>
-
-  <div class="endpoint">
-    <div class="title">8. Get Airports by Type</div>
-    <p>Request:</p>
-    <pre>GET /v1/airports/airporttype/:airporttype</pre>
-    <p>Response:</p>
-    <pre>
-[
+  }
+      </pre>
+      <p>Error Message (if not found):</p>
+      <pre>
+  {
+    "message": "Airport not found",
+    "status": 404
+  }
+      </pre>
+      <p>This endpoint allows you to retrieve information for a specific airport by its airport code.</p>
+    </div>
+  
+    <div class="endpoint">
+      <div class="title">3. Get Airport by Name</div>
+      <p>Request:</p>
+      <pre>GET /v1/airports/name/:name</pre>
+      <p>Response:</p>
+      <pre>
   {
     "airport_code": "DEL",
     "airport_name": "Indira Gandhi International Airport",
@@ -270,87 +150,238 @@ app.get('/', (req, res) => {
     "state_code": "DL",
     "message": "Success",
     "status": 200
-  },
-  ...
-]
-    </pre>
-    <p>Error Message (if no airports found):</p>
-    <pre>
-{
-  "message": "No airports found",
-  "status": 404
-}
-    </pre>
-    <p>This endpoint allows you to retrieve airports based on their type (e.g., International, Domestic).</p>
-  </div>
+  }
+      </pre>
+      <p>Error Message (if not found):</p>
+      <pre>
+  {
+    "message": "Airport not found",
+    "status": 404
+  }
+      </pre>
+      <p>This endpoint allows you to retrieve information for a specific airport by its name.</p>
+    </div>
+  
+    <div class="endpoint">
+      <div class="title">4. Get Airport by City</div>
+      <p>Request:</p>
+      <pre>GET /v1/airports/city/:city</pre>
+      <p>Response:</p>
+      <pre>
+  {
+    "airport_code": "DEL",
+    "airport_name": "Indira Gandhi International Airport",
+    "city_name": "New Delhi",
+    "state_name": "Delhi",
+    "airport_type": "International",
+    "pincode": "110037",
+    "state_code": "DL",
+    "message": "Success",
+    "status": 200
+  }
+      </pre>
+      <p>Error Message (if not found):</p>
+      <pre>
+  {
+    "message": "Airport not found",
+    "status": 404
+  }
+      </pre>
+      <p>This endpoint allows you to retrieve information for a specific airport by its city.</p>
+    </div>
+  
+    <div class="endpoint">
+      <div class="title">5. Get Airports by State</div>
+      <p>Request:</p>
+      <pre>GET /v1/airports/state/:state</pre>
+      <p>Response:</p>
+      <pre>
+  [
+    {
+      "airport_code": "BOM",
+      "airport_name": "Chhatrapati Shivaji Maharaj International Airport",
+      "city_name": "Mumbai",
+      "state_name": "Maharashtra",
+      "airport_type": "International",
+      "pincode": "400099",
+      "state_code": "MH",
+      "message": "Success",
+      "status": 200
+    },
+    ...
+  ]
+      </pre>
+      <p>Error Message (if no airports found):</p>
+      <pre>
+  {
+    "message": "No airports found in this state",
+    "status": 404
+  }
+      </pre>
+      <p>This endpoint allows you to retrieve airports in a specific state.</p>
+    </div>
+  
+    <div class="endpoint">
+      <div class="title">6. Get Airport by Pincode</div>
+      <p>Request:</p>
+      <pre>GET /v1/airports/pincode/:pincode</pre>
+      <p>Response:</p>
+      <pre>
+  {
+    "airport_code": "BLR",
+    "airport_name": "Kempegowda International Airport",
+    "city_name": "Bengaluru",
+    "state_name": "Karnataka",
+    "airport_type": "International",
+    "pincode": "560300",
+    "state_code": "KA",
+    "message": "Success",
+    "status": 200
+  }
+      </pre>
+      <p>Error Message (if not found):</p>
+      <pre>
+  {
+    "message": "Airport not found",
+    "status": 404
+  }
+      </pre>
+      <p>This endpoint allows you to retrieve information for a specific airport by its pincode.</p>
+    </div>
+  
+    <div class="endpoint">
+      <div class="title">7. Get Airports by State Code</div>
+      <p>Request:</p>
+      <pre>GET /v1/airports/statecode/:statecode</pre>
+      <p>Response:</p>
+      <pre>
+  [
+    {
+      "airport_code": "DEL",
+      "airport_name": "Indira Gandhi International Airport",
+      "city_name": "New Delhi",
+      "state_name": "Delhi",
+      "airport_type": "International",
+      "pincode": "110037",
+      "state_code": "DL",
+      "message": "Success",
+      "status": 200
+    },
+    ...
+  ]
+      </pre>
+      <p>Error Message (if no airports found):</p>
+      <pre>
+  {
+    "message": "No airports found for this state code",
+    "status": 404
+  }
+      </pre>
+      <p>This endpoint allows you to retrieve airports in a specific state code.</p>
+    </div>
+  
+    <div class="endpoint">
+      <div class="title">8. Get Airports by Type</div>
+      <p>Request:</p>
+      <pre>GET /v1/airports/airporttype/:airporttype</pre>
+      <p>Response:</p>
+      <pre>
+  [
+    {
+      "airport_code": "DEL",
+      "airport_name": "Indira Gandhi International Airport",
+      "city_name": "New Delhi",
+      "state_name": "Delhi",
+      "airport_type": "International",
+      "pincode": "110037",
+      "state_code": "DL",
+      "message": "Success",
+      "status": 200
+    },
+    ...
+  ]
+      </pre>
+      <p>Error Message (if no airports found):</p>
+      <pre>
+  {
+    "message": "No airports found",
+    "status": 404
+  }
+      </pre>
+      <p>This endpoint allows you to retrieve airports based on their type (e.g., International, Domestic).</p>
+    </div>
+  
+    <h2>Airline Endpoints</h2>
+  
+    <div class="endpoint">
+      <div class="title">1. Get all Airlines</div>
+      <p>Request:</p>
+      <pre>GET /v1/airlines</pre>
+      <p>Response:</p>
+      <pre>
+  {
+    "airlines": [...]
+  }
+      </pre>
+      <p>This endpoint retrieves a list of all airlines.</p>
+    </div>
+  
+    <div class="endpoint">
+      <div class="title">2. Get Airline by IATA Code</div>
+      <p>Request:</p>
+      <pre>GET /v1/airlines/code/:iata</pre>
+      <p>Response:</p>
+      <pre>
+  {
+    "iata_code": "AI",
+    "airline_name": "Air India",
+    "message": "Success",
+    "status": 200
+  }
+      </pre>
+      <p>Error Message (if not found):</p>
+      <pre>
+  {
+    "message": "Airline not found",
+    "status": 404
+  }
+      </pre>
+      <p>This endpoint allows you to retrieve an airline's information by its IATA code.</p>
+    </div>
+  
+    <div class="endpoint">
+      <div class="title">3. Get Airline by Name</div>
+      <p>Request:</p>
+      <pre>GET /v1/airlines/name/:name</pre>
+      <p>Response:</p>
+      <pre>
+  {
+    "iata_code": "AI",
+    "airline_name": "Air India",
+    "message": "Success",
+    "status": 200
+  }
+      </pre>
+      <p>Error Message (if not found):</p>
+      <pre>
+  {
+    "message": "Airline not found",
+    "status": 404
+  }
+      </pre>
+      <p>This endpoint allows you to retrieve an airline's information by its name.</p>
+    </div>
+  
+    <footer>
+      <p>For more information or questions, contact <a href="https://abhishekjainn.vercel.app" target="_blank">Abhishek Jain</a>.</p>
+    </footer>
+  
+  </body>
+  </html>
+  
 
-  <h2>Airline Endpoints</h2>
 
-  <div class="endpoint">
-    <div class="title">1. Get all Airlines</div>
-    <p>Request:</p>
-    <pre>GET /v1/airlines</pre>
-    <p>Response:</p>
-    <pre>
-{
-  "airlines": [...]
-}
-    </pre>
-    <p>This endpoint retrieves a list of all airlines.</p>
-  </div>
 
-  <div class="endpoint">
-    <div class="title">2. Get Airline by IATA Code</div>
-    <p>Request:</p>
-    <pre>GET /v1/airlines/code/:iata</pre>
-    <p>Response:</p>
-    <pre>
-{
-  "iata_code": "AI",
-  "airline_name": "Air India",
-  "message": "Success",
-  "status": 200
-}
-    </pre>
-    <p>Error Message (if not found):</p>
-    <pre>
-{
-  "message": "Airline not found",
-  "status": 404
-}
-    </pre>
-    <p>This endpoint allows you to retrieve an airline's information by its IATA code.</p>
-  </div>
-
-  <div class="endpoint">
-    <div class="title">3. Get Airline by Name</div>
-    <p>Request:</p>
-    <pre>GET /v1/airlines/name/:name</pre>
-    <p>Response:</p>
-    <pre>
-{
-  "iata_code": "AI",
-  "airline_name": "Air India",
-  "message": "Success",
-  "status": 200
-}
-    </pre>
-    <p>Error Message (if not found):</p>
-    <pre>
-{
-  "message": "Airline not found",
-  "status": 404
-}
-    </pre>
-    <p>This endpoint allows you to retrieve an airline's information by its name.</p>
-  </div>
-
-  <footer>
-    <p>For more information or questions, contact <a href="https://abhishekjainn.vercel.app" target="_blank">Abhishek Jain</a>.</p>
-  </footer>
-
-</body>
-</html>
 
   `);
 });
