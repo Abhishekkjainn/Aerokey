@@ -348,6 +348,7 @@ app.get('/', (req, res) => {
   <footer>
     <p>For more information or questions, contact <a href="https://abhishekjainn.vercel.app" target="_blank">Abhishek Jain</a>.</p>
   </footer>
+
 </body>
 </html>
 
@@ -509,5 +510,5 @@ app.get('/v1/airlines/name/:name', (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`);
+  console.log(`Aerokey running live at http://localhost:${port}`);
 });
